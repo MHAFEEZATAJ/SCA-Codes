@@ -1,0 +1,5 @@
+CRYPTO_LIB = present
+SRC += present.c
+CDEFS += -DPRESENT
+VPATH += :$(FIRMWAREPATH)/crypto/$(CRYPTO_LIB)
+EXTRAINCDIRS += $(FIRMWAREPATH)/crypto/$(CRYPTO_LIB)
